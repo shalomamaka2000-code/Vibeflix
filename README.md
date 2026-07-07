@@ -1,11 +1,14 @@
+<<<<<<< HEAD
 # VibeFlix - Plain HTML/CSS Movie App
 
-A responsive, cinema-inspired movie discovery app built with **pure HTML, CSS, and vanilla JavaScript**—no frameworks, no dependencies.
+A responsive, cinema-inspired movie discover website built with **pure HTML, CSS, and vanilla JavaScript**—no frameworks, no dependencies
+ that fetches and displays real-time movie data from the TMDB API.
+
 
 ## Features
 
 ✨ **Cinematic Minimalism Design**
-- Dark theme with vibrant cyan neon accents (#00d9ff)
+- Dark theme with vibrant red black accents
 - Glowing hover effects on movie cards
 - Smooth 300ms transitions and animations
 
@@ -17,7 +20,7 @@ A responsive, cinema-inspired movie discovery app built with **pure HTML, CSS, a
 
 🔍 **Search Functionality**
 - Real-time search filtering by movie title and rating
-- Cyan glow effect on search input focus
+- Beige glow effect on search input focus
 - Empty state messaging
 
 ♿ **Accessibility**
@@ -169,3 +172,7 @@ Free to use and modify for any purpose.
 ---
 
 **Built with ❤️ using vanilla HTML, CSS, and JavaScript**
+=======
+# Vibeflix
+A responsive movie streaming website built with HTML, CSS, and JavaScript, featuring real-time movie data fetched from the TMDB API. The project showcases dynamic content rendering, API integration, search functionality, and a clean, user-friendly interface developed through vibe coding.
+>>>>>>> 424ad151d85c788d71fd2ad2da655f6a5d7d44e6
