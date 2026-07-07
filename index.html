@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeFlix - Movie Discovery App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="vibeflix-header">
+        <div class="vibeflix-container">
+            <div class="header-content">
+                <img src="../vibeflixlogo.png" alt="VibeFlix Logo" class="vibeflix-logo" id="header-logo">
+                <nav class="vibeflix-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Genres</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Top Rated</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    </ul>
+                </nav>
+                <h1 class="vibeflix-title" id="app-title">VibeFlix</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="vibeflix-container">
+        <!-- Search Container -->
+        <div class="search-container">
+            <label for="search-input" class="search-label">Discover Cinema</label>
+            <div class="search-wrapper">
+                <svg class="search-icon" id="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                <input 
+                    id="search-input" 
+                    type="text" 
+                    placeholder="Search for movies..." 
+                    class="search-input"
+                    aria-label="Search movies"
+                >
+                <button id="search-btn" class="search-button">Search</button>
+            </div>
+        </div>
+
+        <!-- Loading Spinner -->
+        <div id="loading-spinner" class="loading-spinner hidden">
+        <div class="spinner"></div>
+        <p>Loading movies...</p>
+        </div>
+
+        <div id="movie-grid" class="movie-grid"></div>
+
+
+        <!-- Movie Grid -->
+        <div class="movie-grid" id="movies-grid">
+            <!-- Movie cards will be inserted here by JavaScript -->
+        </div>
+
+        <!-- No Results Message -->
+        <div class="no-results-container" id="no-results-container" style="display: none;">
+            <p class="no-results" id="no-results">No movies found. Try a different search.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
