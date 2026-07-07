@@ -85,16 +85,8 @@ php -S localhost:8000
 
 ## Customization
 
-### Change Colors
-Edit the CSS variables in `styles.css`:
-```css
-:root {
-    --bg-primary: #0f0f0f;           /* Main background */
-    --accent-cyan: #00d9ff;          /* Accent color */
-    --text-primary: #e0e0e0;         /* Primary text */
-    /* ... more variables */
-}
-```
+
+
 
 ### Add More Movies
 Edit the `MOVIES` array in `script.js`:
